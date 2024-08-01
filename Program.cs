@@ -8,7 +8,8 @@ class Program
         // Criação de objeto (instância da classe)
         Pessoa pessoa = new Pessoa("João", 30);
         pessoa.Apresentacao(); // Chama o método Apresentar da classe Pessoa
-
+        pessoa.setNome("Gabriel");
+        pessoa.Apresentacao();
 
         pessoa.Apresentacao("Bom dia"); // Chama a sobrecarga do método Apresentar
 

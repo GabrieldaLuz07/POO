@@ -19,6 +19,11 @@ namespace POO
             Idade = idade;
         }
 
+        public void setNome(string nome)
+        {
+            Nome = nome;
+        }
+
         // Método simples
         public void Apresentacao()
         {
